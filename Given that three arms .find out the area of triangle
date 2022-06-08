@@ -1,0 +1,18 @@
+#take input arms a
+a = float(input("enter the value of a : "))
+
+#take input arms b
+b = float(input("enter the value of b : "))
+ #take iput arms c 
+c= float(input("enter the value of c : "))
+
+ 
+#semi perimeter 
+
+s = ((a + b + c ) / 2 )
+
+#law of triangle area
+area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
+
+#display the result
+print('Area of a triangle is %f' %area)
