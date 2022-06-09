@@ -1,0 +1,17 @@
+def leap_year_checker(year):
+    if(year%400==0 or (year%4==0 and year%100!=0)):
+      print("this year is leap year")
+    else:
+        print("this year is not leap year")
+        
+        
+leap_year_checker(2016)
+leap_year_checker(2017)
+leap_year_checker(2018)
+leap_year_checker(2019)
+leap_year_checker(2020)
+leap_year_checker(2021)
+leap_year_checker(2022)
+leap_year_checker(2023)
+leap_year_checker(2024)
+  
